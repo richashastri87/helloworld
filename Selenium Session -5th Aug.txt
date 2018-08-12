@@ -1,0 +1,50 @@
+Jenkins:
+=================
+	1. download and install jenkins
+	
+
+	http://localhost:8080
+	
+	2. Login with admin user id
+	3. Install plug in 
+			****
+			***
+			
+
+	4. create new user id and password
+
+
+	5.  login to jenkins  ***
+		user : techvision
+		pwd : vision@951
+
+	6. Create new Item/New Job
+	
+	7. Enter project name  & Choose project type(Maven )
+
+	8. Set source path :
+			https://github.com/sebsto/webapp.git
+
+		
+	9. Build : maven life cycle 
+		compile 		:  compile /check the syntax
+		test		: rune/execute code and check 
+		package 		: create build  - war (web archival), jar(jar archival)
+		deploye		: move to web server / aphace tomcat 
+
+	10. Trigger 
+			
+	11. Build / Run 
+
+				
+
+
+Selenium IDE: is plug in for record and play 
+====================
+
+
+
+	 
+
+	
+	

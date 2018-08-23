@@ -1,0 +1,19 @@
+
+
+Hub command
+
+Command 1 :  C:\Users\richa\Desktop\Selenium_01\hub
+Command 2 : C:\Users\richa\Desktop\Selenium_01\hub>java -jar "selenium-server-standalone-3.13.0.jar" -port 4444 -role hub
+
+
+Node 1 command 
+Command 1 :  C:\Users\richa\Desktop\Selenium_01\node1
+Command 2:   C:\Users\richa\Desktop\Selenium_01\node1>java -jar selenium-server-standalone-3.13.0.jar -role node -hub http://192.168.1.27:4444/grid/register -browser browserName=firefox -port 5555
+
+
+Node 2 commands 
+
+Command 1 :  C:\Users\richa\Desktop\Selenium_01\node2
+Command 2:   C:\Users\richa\Desktop\Selenium_01\node2>java -jar selenium-server-standalone-3.13.0.jar -role node -hub http://192.168.1.27:4444/grid/register -browser browserName=chrome -port 6666
+
+
